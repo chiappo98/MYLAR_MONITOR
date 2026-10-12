@@ -4,10 +4,10 @@ Catena completa: **foto → lettura comparatore (OpenCV) → file di testo → T
 
 ```
  camera ──► monitor_mylar.py ──► misure.txt ────┐
- sensore BME280 ─────────► temperature.txt ┤
-                                           ▼
-                                      Telegraf ──► InfluxDB ──► Grafana
-                                   (legge i file)  (bucket)     (dashboard)
+ sensore BME280 ─────────► temperature.txt ─────┤
+                                                ▼
+                                            Telegraf ──► InfluxDB ──► Grafana
+                                        (legge i file)  (bucket)     (dashboard)
 ```
 
 ---
